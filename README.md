@@ -1,6 +1,6 @@
 # medikom
 
-simple GUI program for organizing tasks and information
+simple GUI program for organizing tasks and information in German
 
 ## INSTALLATION
 
@@ -12,10 +12,13 @@ simple GUI program for organizing tasks and information
     python3 medikom.py
 
 
-##FILES
+##FILES (* = created by program)
 
-    o medikom.py        the program
-    o pensive.sqlite    sqlite database
+    o medikom.py           program launcher
+    o medikom_back_end.py  data management (sqlite3)
+    o medikom_front_end.py GUI (tkinter)
+    o *medikom.sqlite      sqlite database 
+    o *medikom.log         log file 
 
 ## SCREENSHOTS
 ![Figure 1](https://github.com/g-murzik/miscellaneous/blob/master/medikom01.png "Medikom 1")
